@@ -1,1 +1,16 @@
-
+<style>
+    .banner-container [class^='banner-lev'] img, .banner-container [class^='banner-lev'] object{
+        width: 80% !important;
+    }
+    .slick-slide img{
+        margin: 0 auto !important;
+    }
+    @media screen and (max-width: 992px) {
+        .banner-container [class^='banner-lev'] img, .banner-container [class^='banner-lev'] object{
+            width: 100% !important;
+        }
+        .slick-slide img {
+            margin: unset !important;
+        }
+    }
+</style>
