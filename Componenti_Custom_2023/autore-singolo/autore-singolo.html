@@ -1,1 +1,111 @@
+<!--Titolo con linea-->
+<section class="board container-fluid">
+    <h2 class="board-title"><span>L'autrice</span></h2>
+</section>
+<section class="board container-fluid">
+    <div class="row service-page-limiter">
+<div class="col-12">
+<!-- ======= Services Section ======= -->
+    <section id="services2" class="services2">
+      <div class="container">
+            <div class="row">
+                <div class="col-md-2 spacer"></div>
+                <div class="col-12 col-md-8 d-flex align-items-stretch mb-5 mb-lg-0">
+                    <a href="/it/autori/daniela-lucangeli">
+                        <div class="icon-box autor">
+                            <img src="https://static.erickson.it/prod/t/25_80/files/author/other/188270_daniela-lucangeli.jpg?h=112&w=112" alt="" style="max-height: 150px;" class="rounded-circle">
+                            <h3>Daniela Lucangeli</h3>
+                            <p>Professoressa ordinaria di Psicologia dello sviluppo presso l’Università di Padova, presidente dell’Associazione Nazionale per gli Insegnanti Specializzati (CNIS), presidente di Mind4Children, spin-off dell’Università di Padova, autrice di numerosi contributi scientifici nazionali e internazionali,direttrice scientifica di un’importante rete di centri clinici e educativi dedicati a chi fatica a scuola e molto altro.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-2 spacer"></div>
+            </div>
+      </div>
+    </section><!-- End Services Section -->
+</div>
+</div>
+</section>
 
+<style>
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+a, a:hover{
+    text-decoration: none;
+}
+.autor:hover h3, .autor:hover p{
+    color: white;
+}
+.services2 {
+  padding-bottom: 30px;
+}
+
+.services2 .icon-box {
+  padding: 60px 30px;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+  text-align: center;
+}
+
+.services2 .icon-box::before {
+  content: "";
+  position: absolute;
+  background: #fdeff2;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.4s;
+  z-index: -1;
+}
+
+.services2 .icon-box:hover::before {
+  background: #c95633;
+  top: 0;
+  border-radius: 0px;
+  color: white;
+}
+
+.services2 .icon {
+  margin-bottom: 15px;
+}
+
+.services2 .icon i {
+  font-size: 48px;
+  line-height: 1;
+  color: #c95633;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.services2 .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.services2 .title a {
+  color: #111;
+}
+
+.services2 .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.services2 .icon-box:hover .title a,
+.services2 .icon-box:hover .description {
+  color: #fff;
+}
+
+.services2 .icon-box:hover .icon i {
+  color: #fff;
+}
+</style>
