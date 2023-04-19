@@ -1,1 +1,89 @@
-
+<style>
+:root{
+    --padding-text: 20px;
+}
+.og_card{
+    text-align: center;
+    margin-bottom: 20px !important;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.og_card:hover{
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+}
+.og_card a{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.og_card img{
+    max-width: 100%;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.og_card, .og_card img{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+.og_card h5{
+    padding-top: var(--padding-text);
+    padding-bottom: var(--padding-text);
+    color: white;
+}
+@media screen and (max-width: 767.9px) {
+    .spacer{
+        display: none !important;
+    }
+    .og_card:hover{
+        border-color: none;
+        box-shadow: none;
+        transform: none;
+    }
+}
+</style>
+<section class="board container-fluid mb-4">
+    <div class="row m-0 p-0">
+        <div class="col-12 col-md-4">
+            <div class="col-12 og_card" style="background-color: #c95633;">
+                <a href="/it/approfondimento/estateimparo"></a>
+                <img src="https://static.erickson.it/sit/storefront/lp_approfondimenti/estateimparo/og-image/1200x630_fb_estate-imparo_v3.jpg" alt="">
+                <h5>Estateimparo</h5>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="col-12 og_card" style="background-color: #F16E66;">
+                <a href="/it/approfondimento/famiglia-monelli/"></a>
+                <img src="https://static.erickson.it/sit/storefront/lp_approfondimenti/la-famiglia-monelli/fb/1200x628_bannerfb_la-fam-monelli-lp_v01.jpg" alt="">
+                <h5>La famiglia Monelli va in vacanza</h5>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="col-12 og_card" style="background-color: #DE5136;">
+                <a href="/it/approfondimento/il-giro-dei-compiti"></a>
+                <img src="https://static.erickson.it/sit/storefront/lp_approfondimenti/il-giro-dei-compiti/1200x628_bannerfb_il-giro-dei-compiti_v01.jpg" alt="">
+                <h5>Il giro dei compiti in 80 giorni</h5>
+            </div>
+        </div>
+        <div class="col-md-2 spacer"></div>
+        <div class="col-12 col-md-4">
+            <div class="col-12 og_card" style="background-color: #F49900;">
+                <a href="/it/approfondimento/enigmistica-in-gioco"></a>
+                <img src="https://static.erickson.it/sit/storefront/lp_approfondimenti/enigmistica-in-gioco/1200x628_bannerfb_enigmistica-in-gioco_v01.jpg" alt="">
+                <h5>Enigmistica in gioco</h5>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="col-12 og_card" style="background-color: #7D83BF;">
+                <a href="/it/approfondimento/i-compiti-vanno-in-vacanza"></a>
+                <img src="https://static.erickson.it/sit/storefront/lp_approfondimenti/compiti_delle_vacanze/banner/1200x628_bannerfb_i_compiti_vanno_in_vacanca.jpg" alt="">
+                <h5>I compiti vanno in vacanza</h5>
+            </div>
+        </div>
+        <div class="col-md-2 spacer"></div>
+    </div>
+</section>
