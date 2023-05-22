@@ -9,4 +9,7 @@
 .board.erickson-accordion text{
     font-size: 1.4rem !important;
 }
+.board.erickson-accordion iframe{
+    max-width: 100%;
+}
 </style>
