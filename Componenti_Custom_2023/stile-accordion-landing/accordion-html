@@ -1,0 +1,12 @@
+<style>
+.e-accordion .card:first-child{
+    display: none !important;
+}
+.board.erickson-accordion{
+    margin: auto !important;
+    max-width: 50rem !important;
+}
+.board.erickson-accordion text{
+    font-size: 1.4rem !important;
+}
+</style>
