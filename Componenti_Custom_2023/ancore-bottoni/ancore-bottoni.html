@@ -1,29 +1,42 @@
 <section class="board container-fluid" style="margin-top:-1.5rem">
     <div class="row" style="align-items: center;justify-content: center;">
         <div class="col-6 col-md-4 mt-4" style="align-items: center;justify-content: center;display: flex;">
-            <a tabindex="0" href="#primaria" class="blue_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase" style="padding: 0.75rem 1rem;max-width: 300px;background: #3D8BB0;letter-spacing: 0.1rem;border: 3px solid #3D8BB0;color: #035f8c;border-radius: 100px 0 100px 0;"><span>INSEGNANTE <br class="hide-desk">PRIMARIA</span></a>
+            <a tabindex="0" href="#primaria" class="anchor_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase"><span>INSEGNANTE <br class="hide-desk">PRIMARIA</span></a>
         </div>
         <div class="col-6 col-md-4 mt-4" style="align-items: center;justify-content: center;display: flex;">
-            <a tabindex="0" href="#secondaria" class="blue_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase" style="padding: 0.75rem 1rem;max-width: 300px;background: #3D8BB0;letter-spacing: 0.1rem;border: 3px solid #3D8BB0;color: #035f8c;border-radius: 100px 0 100px 0;"><span>INSEGNANTE <br class="hide-desk">SECONDARIA</span></a>
+            <a tabindex="0" href="#secondaria" class="anchor_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase"><span>INSEGNANTE <br class="hide-desk">SECONDARIA</span></a>
         </div>
         <div class="col-6 col-md-4 mt-4" style="align-items: center;justify-content: center;display: flex;">
-            <a tabindex="0" href="#psicologo" class="blue_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase" style="padding: 0.75rem 1rem;max-width: 300px;background: #3D8BB0;letter-spacing: 0.1rem;border: 3px solid #3D8BB0;color: #035f8c;border-radius: 100px 0 100px 0;"><span>PSICOLOGO/A</span></a>
+            <a tabindex="0" href="#psicologo" class="anchor_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase"><span>PSICOLOGO/A</span></a>
         </div>
         <div class="col-6 col-md-4 mt-4" style="align-items: center;justify-content: center;display: flex;">
-            <a tabindex="0" href="#assistente" class="blue_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase" style="padding: 0.75rem 1rem;max-width: 300px;background: #3D8BB0;letter-spacing: 0.1rem;border: 3px solid #3D8BB0;color: #035f8c;border-radius: 100px 0 100px 0;"><span>ASSISTENTE SOCIALE</span></a>
+            <a tabindex="0" href="#assistente" class="anchor_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase"><span>ASSISTENTE SOCIALE</span></a>
         </div>
         <div class="col-6 col-md-4 mt-4" style="align-items: center;justify-content: center;display: flex;">
-            <a tabindex="0" href="#educatore" class="blue_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase" style="padding: 0.75rem 1rem;max-width: 300px;background: #3D8BB0;letter-spacing: 0.1rem;border: 3px solid #3D8BB0;color: #035f8c;border-radius: 100px 0 100px 0;"><span>EDUCATORE/<br class="hide-desk">EDUCATRICE</span></a>
+            <a tabindex="0" href="#educatore" class="anchor_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase"><span>EDUCATORE/<br class="hide-desk">EDUCATRICE</span></a>
         </div>
         <div class="col-6 col-md-4 mt-4" style="align-items: center;justify-content: center;display: flex;">
-            <a tabindex="0" href="#self-marketing" class="blue_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase" style="padding: 0.75rem 1rem;max-width: 300px;background: #3D8BB0;letter-spacing: 0.1rem;border: 3px solid #3D8BB0;color: #035f8c;border-radius: 100px 0 100px 0;"><span>SELF MARKETING</span></a>
+            <a tabindex="0" href="#self-marketing" class="anchor_btn btn_vetrina button-red inverted-button:hover m-auto text-uppercase"><span>SELF MARKETING</span></a>
         </div>
     </div>
 </section>
 <style>
-.blue_btn:hover{
-    color: #3D8BB0 !important;
-    background: white !important;
+:root{
+    --primary_btn: #3D8BB0;
+    --secondary_btn: #fff;
+}
+.anchor_btn{
+    padding: 0.75rem 1rem;
+    max-width: 300px;
+    background: var(--primary_btn);
+    letter-spacing: 0.1rem;
+    border: 3px solid var(--primary_btn);
+    color: #035f8c;
+    border-radius: 100px 0 100px 0;
+}
+.anchor_btn:hover{
+    color: var(--primary_btn) !important;
+    background: var(--secondary_btn) !important;
 }
 .hide-desk{
     display: none;
