@@ -13,3 +13,7 @@
     text-transform: uppercase;
     border-radius: 4px;
 }
+.ampromo-items-add>a {
+    text-decoration: none;
+    border-bottom: none !important;
+}
