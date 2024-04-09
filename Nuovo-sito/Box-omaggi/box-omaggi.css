@@ -12,8 +12,10 @@
     font-size: 1.4rem;
     text-transform: uppercase;
     border-radius: 4px;
+    /*background-color: #b5161a; da aggiungere se si vuole il pulsante primary*/
 }
 .ampromo-items-add>a {
     text-decoration: none;
     border-bottom: none !important;
+    /*color: white; da aggiungere se si vuole il pulsante primary*/
 }
