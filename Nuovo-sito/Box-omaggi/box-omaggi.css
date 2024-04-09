@@ -1,0 +1,15 @@
+/* CTA SELEZIONA I TUOI OMAGGI */
+.ampromo-items-add {
+    margin-bottom: 12px;
+    padding: 10px 20px;
+    border: 1px solid #b5161a;
+    text-align: center;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'FreightSansPro';
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
