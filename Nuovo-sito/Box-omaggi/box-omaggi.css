@@ -3,22 +3,42 @@
 .ampromo-items-add {
     margin-bottom: 12px;
     padding: 10px 20px;
-    border: 1px solid #b5161a;
     text-align: center;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
     font-family: 'FreightSansPro';
-    font-weight: 600;
-    font-size: 1.4rem;
     text-transform: uppercase;
     border-radius: 4px;
     /*background-color: #b5161a; da aggiungere se si vuole il pulsante primary*/
+    display: inline-flex;
+    height: 36px;
+    font-size: 1.4rem;
+    color: #b5161a;
+    border: 2px solid #e7e7e7;
+    background: #fbfbfb;
+    font-weight: 600;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    line-height: 1.6rem;
+    transition: all .3s ease;
 }
 .ampromo-items-add>a {
     text-decoration: none;
     border-bottom: none !important;
     /*color: white; da aggiungere se si vuole il pulsante primary*/
+}
+.ampromo-items-add>a::after{
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-left: 8px;
+    background: url(../images/icons/arrow-oblique-red.svg) no-repeat center center;
+    background-size: cover;
 }
 /* CARDS */
 .ampromo-popup-wrapper.ampromo-popup-compact .ampromo-title {
