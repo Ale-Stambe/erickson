@@ -20,3 +20,9 @@
     border-bottom: none !important;
     /*color: white; da aggiungere se si vuole il pulsante primary*/
 }
+/* CARDS */
+.ampromo-popup-wrapper.ampromo-popup-compact .ampromo-title {
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+}
