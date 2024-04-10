@@ -10,7 +10,6 @@
     font-family: 'FreightSansPro';
     text-transform: uppercase;
     border-radius: 4px;
-    /*background-color: #b5161a; da aggiungere se si vuole il pulsante primary*/
     display: inline-flex;
     height: 36px;
     font-size: 1.4rem;
@@ -29,7 +28,6 @@
 .ampromo-items-add>a {
     text-decoration: none;
     border-bottom: none !important;
-    /*color: white; da aggiungere se si vuole il pulsante primary*/
 }
 .ampromo-items-add>a::after{
     content: '';
