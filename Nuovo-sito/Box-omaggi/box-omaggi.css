@@ -39,13 +39,13 @@
 }
 /* CARDS */
 .ampromo-popup-wrapper.ampromo-popup-compact .ampromo-title {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: black;
     font-weight: 600;
 }
 .ampromo-item-buttons{
-    display: grid;
-    justify-content: center;
+    display: grid !important;
+    justify-content: center !important;
 }
 .ampromo-item{
   border-radius: 12px !important;
