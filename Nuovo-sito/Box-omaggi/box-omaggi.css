@@ -53,3 +53,6 @@
 .ampromo-popup-wrapper.ampromo-popup-compact h2 {
     text-align: center;
 }
+.product-info-price .price-base-price span, .product-info-price .price-new-price span {
+    font-size: 1.2rem !important;
+}
