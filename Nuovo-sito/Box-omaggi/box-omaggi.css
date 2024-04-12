@@ -56,3 +56,6 @@
 .product-info-price .price-base-price span, .product-info-price .price-new-price span {
     font-size: 1.2rem !important;
 }
+.product-info-price {
+    line-height: 0 !important;
+}
