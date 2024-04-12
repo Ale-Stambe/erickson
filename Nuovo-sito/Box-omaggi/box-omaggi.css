@@ -50,3 +50,6 @@
 .ampromo-item{
   border-radius: 12px !important;
 }
+.ampromo-popup-wrapper.ampromo-popup-compact h2 {
+    text-align: center;
+}
