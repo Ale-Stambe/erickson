@@ -1,0 +1,40 @@
+.amblog-dates {
+    position: relative;
+}
+.amblog-dates::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background: url(/media/amasty/shopby/option_images/204008_gruppo-di-ricerca-elicom.jpg);
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    top: 75px;
+    left: -105px;
+    z-index: 1;
+    border-radius: 12px;
+}
+@media screen and (max-width: 1200px){
+  .amblog-dates::before{
+    top: 65px;
+    left: 15px;
+  }
+}
+@media screen and (max-width: 768px){
+  .amblog-dates::before{
+    top: 45px;
+    left: 15px;
+  }
+}
+@media screen and (max-width: 500px){
+  .amblog-dates::before{
+    top: 35px;
+    left: 5px;
+  }
+}
+@media screen and (max-width: 400px){
+  .amblog-dates::before{
+    width: 80px;
+    height: 80px;
+  }
+}
