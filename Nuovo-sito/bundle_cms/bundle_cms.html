@@ -1,0 +1,35 @@
+ROW -> hub-stripe-wrapper hub-background-radius   20px di padding top e bottom
+H2 -> hub-card-title  30px di margin-bottom
+COLUMNS
+2+2+2+3+3
+
+PRODOTTI
+H3 nome_prodotto  margin e padding bottom 0
+P hub-card-text
+
+BOX PREZZO
+H3 hub-card-title
+H2 prezzo
+BUTTONS cta
+
+<style>
+/* sistema il margin del prezzo barrato */
+.nome_prodotto {
+    color: #333 !important;
+    font-size: 2rem !important;
+    line-height: 1 !important;
+    margin-bottom: 0 !important;
+}
+/* black */
+.prezzo h2{color: black !important;}
+/* prezzo barrato */
+.prezzo h2 span{
+    color: #666 !important;
+    font-size: 2.2rem !important;
+    line-height: 1 !important;
+    margin-left: 16px !important;
+}
+/* cta */
+.cta span {padding: 5px 16px !important;}
+.cta div[data-content-type=button-item]{width: 100% !important;}
+</style>
