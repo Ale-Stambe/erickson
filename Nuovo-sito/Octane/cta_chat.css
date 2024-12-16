@@ -13,3 +13,16 @@
     text-transform: uppercase;
     border-radius: 8px;
     font-weight: bold;
+
+
+/* versione 2 */
+    display: block;
+    border: 2px solid #b5161a;
+    width: fit-content;
+    color: #b5161a;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-weight: bold;
