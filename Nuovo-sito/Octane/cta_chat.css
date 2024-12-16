@@ -1,0 +1,15 @@
+/* ******** */
+/* stili da applicare alla <a> */
+/* ******** */
+
+/* versione 1 */
+    display: block;
+    background-color: #b5171a !important;
+    width: fit-content;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-weight: bold;
